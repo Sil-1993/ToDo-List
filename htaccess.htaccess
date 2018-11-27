@@ -1,0 +1,9 @@
+Options +FollowSymlinks
+Options -Indexes
+Options -MultiViews
+
+RewriteEngine on
+RewriteBase /site
+
+RedirectMatch 301 ^/public$ /
+RewriteRule ^(.*) /public/$1 [L]
