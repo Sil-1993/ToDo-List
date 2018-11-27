@@ -1,9 +1,15 @@
 Demo Project - To Do List
 
+.htaccess bestanden worden niet geüpload naar Github, dus vandaar dat je even de naam van de twee .htaccess bestanden zelf moet hernoemen naar `.htaccess`
+
+
+
+De database tabel
 ```
 todo_db
 ```
 
+De database structuur
 ```
 CREATE TABLE `tasks` (
   `task_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
